@@ -9,7 +9,9 @@
 <!-- TEMPLATES -->
 
 <template name="leaderboard">
-{{#each player}}
-    test
-{{/each}}
+	<ul>
+		{{#each player}}
+		    <li>{{name}} : {{score}}</li>
+		{{/each}}
+	</ul>
 </template>
